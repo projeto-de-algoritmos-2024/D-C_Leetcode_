@@ -1,6 +1,6 @@
 # LeetCode
 
-**Conteúdo da Disciplina**: Grafos 2<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -22,7 +22,7 @@ do juiz online Leetcode
 - [312. Burst Balloons](Questões/Q312-Hard/312-burst-baloons.md) (Hard)
 - [53. Maximum Subarray](Questões/Q53-Medium/ResoluçãoQ53.md) (Hard)
 - [4. Median of Two Sorted Arrays](Questões/Q04-Hard/ResoluçãoQ04.md) (Hard)
-- [133. Clone Graph](Questoes/133.py) (Medium)
+- [215. Kth Largest Element in an Array](Questões/Q215-Medium/ResoluçãoQ215.md) (Medium)
   
 
 ## Videos
