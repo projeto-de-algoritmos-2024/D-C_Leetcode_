@@ -1,21 +1,18 @@
-def maxCoins(nums):
-    nums = [1] + nums + [1]
-    n = len(nums)
-    memo = [[0] * n for _ in range(n)]
-
-    def burst(left, right):
-        if left + 1 == right:
-            return 0
-        if memo[left][right] > 0:  
-            return memo[left][right]
+class Solution:
+    def maxCoins(self, nums):
         
-        max_coins = 0
-        for i in range(left + 1, right):
-            coins = nums[left] * nums[i] * nums[right]
-            coins += burst(left, i) + burst(i, right)
-            max_coins = max(max_coins, coins)
+        nums = [1] + nums + [1]
+        n = len(nums)
         
-        memo[left][right] = max_coins 
-        return max_coins
-
-    return burst(0, n - 1)
+        dp = [[0] * n for _ in range(n)]
+        
+        for length in range(2, n):  
+            for left in range(n - length): 
+                right = left + length  
+                
+                for i in range(left + 1, right):
+                   
+                    coins = nums[left] * nums[i] * nums[right]
+                    dp[left][right] = max(dp[left][right], dp[left][i] + coins + dp[i][right])
+        
+        return dp[0][n - 1]
