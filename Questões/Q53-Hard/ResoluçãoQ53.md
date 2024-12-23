@@ -1,28 +1,32 @@
-# 4. Median of Two Sorted Arrays
+# 53. Maximum Subarray
 
-[Link da Questão: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+[Link da Questão: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-- Nível do problema: **Hard**
-- Linguagem Utilizada: **C#**
+- Nível do problema: **Medium**
+- Linguagem Utilizada: **Python**
 
 ## Resultados do Juiz Eletrônico
 <center>
 
-![Submissão](../../assets/Q04.png)
+![Submissão](../../assets/Q53.png)
 Submissão 1
 
 </center>
 
 ## Resumo
 
-- O problema consistia em, dado dois vetores previamente ordenados *nums1* e *nums2*, de tamanhos m e n, respectivamente, o programa deverá retornar a mediana deles.
-- A complexidade esperada do código deveria ser $O(\log (m+n))$.
+- O problema consiste em encontrar a soma máxima de um subarray contínuo dado um array de inteiros *nums*.
+- O objetivo foi implementar uma solução utilizando a abordagem de **Dividir e Conquistar**, garantindo uma complexidade de $O(n \log n)$.
 
 <center>
 
-## [Solução](4-Median-of-Two-Sorted-Arrays.cs)
+## [Solução](53-Maximum-Subarray.py)
 
 </center>
 
 ### Submissão 1
-- Para solucionar o problema, foi utilizado a função de merge do mergesort para juntar os vetores ordenados e depois foi feito um cálculo simples para encontrar a mediana.
+- A solução dividiu o array em partes menores, calculando:
+  1. A soma máxima do subarray na metade esquerda.
+  2. A soma máxima do subarray na metade direita.
+  3. A soma máxima de um subarray que cruza o meio.
+- O resultado foi obtido combinando esses valores, utilizando recursão e somas acumuladas.
