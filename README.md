@@ -42,7 +42,11 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 ## Videos
 
+Questão 312
 https://youtu.be/3VCmv25dy74
+
+Questão 53
+https://youtu.be/2qrkR2331A8
 
 
 
