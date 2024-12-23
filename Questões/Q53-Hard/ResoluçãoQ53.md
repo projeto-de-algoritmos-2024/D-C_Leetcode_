@@ -20,7 +20,7 @@ Submissão 1
 
 <center>
 
-## [Solução](53-Maximum-Subarray.py)
+## [Solução](53-maximum-subarray.py)
 
 </center>
 
