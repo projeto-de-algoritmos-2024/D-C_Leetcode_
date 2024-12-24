@@ -34,5 +34,11 @@ https://youtu.be/3VCmv25dy74
 Questão 53
 https://youtu.be/2qrkR2331A8
 
+Questão 4 e 215
+https://www.youtube.com/watch?v=Dnjyl0tszFc
+
+Questão 1985
+https://www.youtube.com/watch?v=EILfHL4I330
+
 
 
